@@ -1,0 +1,100 @@
+body {
+	background: #FC354C;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-size: 40px
+	line-height: 2
+	letter-spacing: 20px
+	font-weight: lighter 
+	margin: 0px;
+  	font-family: PT sans, sans-serif;
+}
+
+h1{
+	color: black;
+}
+
+h2 {
+	color: black 
+}
+
+#debut {
+	width: 1px
+}
+
+.img {
+	border-image: 3px
+	border-radius: 50%;
+}
+
+div {
+	border-top: 1px
+	border-bottom:1px 
+	border-right:2px;
+	border-left:2px;
+	border-radius:7px 
+	width: 400px
+	margin: 2px;
+	background: white;                         
+	padding: 30px;                             
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+footer {
+	background-image: url(Images/drugs.jpeg)
+}
+
+a:hover {
+color: yellow;
+text-decoration: none
+}
+
+custom design with class
+
+.container {
+	width: 900px
+	margin: 40px auto;
+}
+
+ @ media {max-width: 760px }
+	.container {
+		background-color: yellow
+		width: 600px;
+	}
+
+ @ media {max-width: 540px }
+	.container {
+		background-color: black
+		width: 300px;
+	}
+
+
+.list-inline {
+	padding-left: 0px
+	list-style: none;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i {
+	font-size: 50px
+	color: white;
+}
+
+.card-white {
+	background-color: white
+	border-top: 1px
+	border-bottom:1px 
+	border-right:2px;
+	border-left:2px;
+	border-radius:7px 
+	width: 400px
+	margin: 20px;
+	background: white;                         
+	padding: 30px;                             
+	box-shadow: 0 10px 30px rgba(0,0,0,.1)
+}
